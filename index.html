@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu blog sobre Filmes</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class ="container">
+        <img src = "assets/img/movie-film.png" class="logo">
+    </div>
+
+    <h1 class = "tit">
+        Bem-vindo!
+    </h1>
+    <h1 class = "sub">Blog Pessoal sobre filmes</h1>
+    <h3 class = "des">Fiz esse blog para mostrar sobre os filmes que assisti e gostei.</h3>
+    <div class= "caixa">
+        <div class = "filmes2021">
+            <a href="filmes2021.html">
+            <h1 class = "titulo">Filmes 2021</h1>
+            <h2 class ="texto">Filmes assistidos em 2021</h2>
+            <img src = "assets/img/movie-film.png" class = "imagem">
+            </a>
+        </div>
+        <div class = "lista">
+            <a href="Minha-Lista.html">
+            <h1 class = "titulo">Minha lista</h1>
+            <h2 class = "texto">Filmes que ainda quero assistir.</h2>
+            <img src = "assets/img/note.png" class = "imagem">
+            </a>
+        </div>
+        <div class = "filmes2020">
+            <a href="filmes.html">
+                <h1 class ="titulo">Filmes 2020</h1>
+            <h2 class = "texto">Filmes assistidos em 2020<h2>
+            <img src = "assets/img/movie-film.png" class = "imagem">
+
+            </a>
+        </div>
+        <div class = "filmes2019">
+            <a href="filmes2019.html">
+          <h1 class ="titulo">Filmes 2019</h1>
+          <h2 class = "texto">Filmes assistidos em 2019 </h2>
+          <img src = "assets/img/movie-film.png" class ="imagem">
+          </a>
+        </div>
+    </div>
+
+    <div class ="container">
+        <h2 class = "tit">Sobre mim</h2>
+        <img src="assets/img/WhatsApp Image 2021-02-25 at 17.00.39.jpeg" class = "foto">
+        <h3 class = "des">Meu nome é Julia, tenho 18 anos e fiz esse blog com o intuito<br> 
+        de mostrar os filmes que asisto e minha opinião sobre eles!</h3>
+    </div>
+    <div class = "containerA">
+        <img src="assets/img/Mail-amico.png" id = "newsletter">
+        <div class = "container">
+        <h1 id="tit">Assine nossa Newsletter para saber em primeira mão sobre lançamentos dos próximos filmes:</h1>
+        <form>
+        <label class="nome">Nome:</label> <br>
+        <input type="text" id="nome" onkeyup='validaNome()'>
+        <div id='txtNome'></div>
+        <br>
+        <label class="email">E-mail:</label> <br>
+        <input type="email" id="email" onkeyup='validaEmail()'>
+        <div id='txtEmail'></div>
+        <br>
+        <br>
+        <button onclick="enviar()" class="botao">Enviar</button>
+        </form>
+        </div>
+    </div>
+
+    <div class = "containerA">
+        <div class="container">
+
+            <h2 class="nome">Endereço do nosso escritório: </h2>
+    
+            <p class= "nome">Av. Paulista, 100</p>
+            <p class= "nome">São Paulo - SP</p>
+          
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106696296001!2d-46.65390548535577!3d-23.564611167596592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1594056507065!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id='mapa'></iframe>
+        </div>
+        <img src="assets/img/Location review-amico.png" id = "newsletter">
+    </div>
+
+    <footer>
+
+        <div class="containerA">
+           <a href="https://www.facebook.com/" target="_blank">
+              <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+           </a>
+           
+           <a href="https://www.linkedin.com/" target="_blank">
+              <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+           </a>
+           
+           <a href="https://www.instagram.com/" target="_blank">
+              <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Intagram">
+           </a>
+
+           <a href="https://github.com/juliazoratti" target="_blank">
+            <img class="tm-social p-30" src="assets/img/github.png" alt="Logo do Intagram">
+            </a>
+           
+        </div>
+  
+        <p class="center">
+           Todos os direitos reservados: juliazoratti &copy
+        </p> 
+     </footer>
+
+     <script src = "assets/js/script.js"></script>
+    
+</body>
+</html>

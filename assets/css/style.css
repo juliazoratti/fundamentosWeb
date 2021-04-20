@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body{
+  background-color: #000000;
+  color: white;
+  font-family: "Poppins";
+}
+.tit {
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: center;
+  font-size: 30px;
+  color:#c650e4;
+  padding: 100px;
+}
+.sub{
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 0px;
+  text-align: center;
+  font-size: 30px;
+  color:#c650e4;
+  padding: 50px;
+}
+.des {
+  font-family: "Poppins";
+  font-weight: 200;
+  font-size: 25px;
+  text-align: center;
+  top: 10px;
+  position: relative;
+  color:#c650e4;
+  padding: 50px;
+  margin-bottom: 100px;
+}
+.logo{
+  width: 300px;
+}
+.titulo{
+    font-weight: 600;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    font-size: 15px;
+  }
+  .texto{
+    font-weight: 200;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    font-size: 10px;
+  }
+  .imagem{
+    width: 60px;
+    position: relative;
+    right: -220px;
+    top: 40px;
+  }
+
+.filmes2021{
+  position: relative;
+  background: #000000;
+  box-shadow: 0px 10px 10px 0px #D1D0D6;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-top-color:#c650e4;
+  margin: 20px auto;
+  box-sizing: border-box;
+  width: 300px;
+  height: 200px;
+  border-radius: 8px 8px 8px 8px;
+  cursor: pointer;
+  transition: .5s;
+  font-family: "Poppins";
+}
+.filmes2021:hover{
+  top: -20px;
+  background-color: #e696e9;
+  color: black;
+}
+.lista{
+  position: relative;
+  background: #000000;
+  box-shadow: 0px 10px 10px 0px #D1D0D6;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-top-color:#F29F05;
+  margin: 20px auto;
+  box-sizing: border-box;
+  width: 300px;
+  height: 200px;
+  border-radius: 8px 8px 8px 8px;
+  cursor: pointer;
+  transition: .5s;
+  font-family: "Poppins";
+  top: 60px;
+}
+.lista:hover{
+  top: -1px;
+  background-color: #F2C288;
+  color: black;
+}
+.filmes2020{
+  position: relative;
+  background: #000000;
+  box-shadow: 0px 10px 10px 0px #D1D0D6;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-top-color:#75D7D1;
+  margin: 20px auto;
+  box-sizing: border-box;
+  width: 300px;
+  height: 200px;
+  border-radius: 8px 8px 8px 8px;
+  cursor: pointer;
+  transition: .5s;
+  font-family: "Poppins";
+  display: inline-block;
+  top: -350px;
+  left: 120px;
+}
+.filmes2020:hover{
+  top: -370px;
+  background-color: #CCECF3;
+  color: black;
+}
+.filmes2019{
+  position: relative;
+  background: #000000;
+  box-shadow: 0px 10px 10px 0px #D1D0D6;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-top-color:#7CB1E8;
+  margin: 20px auto;
+  box-sizing: border-box;
+  width: 300px;
+  height: 200px;
+  border-radius: 8px 8px 8px 8px;
+  cursor: pointer;
+  transition: .5s;
+  font-family: "Poppins";
+  display: inline-block;
+  left: 600px;
+  top: -380px;
+}
+.filmes2019:hover{
+  top: -400px;
+  background-color: #CBE2F9;
+  color: black;
+}
+
+.foto{
+    border-radius: 50%;
+    width: 300px;
+    height: 350px;
+}
+#nome{
+    border-radius: 30px 30px 30px 30px;
+    border: solid 1px;
+    border-color: #CDACAF;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    color: #CDACAF;
+  }
+  #email{
+    border-radius: 30px 30px 30px 30px;
+    border: solid 1px;
+    border-color: #CDACAF;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    color: #CDACAF;
+  }
+  .botao{
+    background-color: #ec9af3;
+    position: relative;
+    height: 55px;
+    width: 90px;
+    box-shadow:0px 10px 10px 0px #e1c4f2;
+    border-radius: 20px 20px 20px 20px;
+    border:none;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .botao:hover{
+    background-color: #ec6af8;
+  }
+
+  #newsletter{
+    width: 500px;
+    justify-content: left;
+    align-items: left;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerA{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+form{
+    margin-left: 50px;
+}
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+    padding: 35px;
+ }
+ 
+footer{
+    background-color: rgb(248, 103, 241);
+}
+
+/*Estilizando pagina filmes*/
+
+.cartaz{
+    position: relative;
+    background: #000000;
+    box-shadow: 0px 10px 10px 0px #D1D0D6;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color:#c650e4;
+    margin: 20px auto;
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    border-radius: 8px 8px 8px 8px;
+    cursor: pointer;
+    transition: .5s;
+    font-family: "Poppins";
+    padding: 25px;
+}
+
+.cartaz:hover{
+    background-color: gray;
+    top:10px;
+}
+
+.imagemFilme{
+    width: 250px;
+    height: 350px;
+}
+
+.menu{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    box-shadow:0px 5px 5px 0px yellow;
+    border-radius: 20px 20px 20px 20px;
+    border:none;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+    position: relative;
+    top: 10px;
+    margin-left: 50px;
+}
+.menu:hover{
+    position: relative;
+    top: 15px;
+}
+#menu {
+    background-color: #750052;
+}
+#menu li{
+    display: inline;
+    padding: 30px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    color: rgb(252, 146, 243);
+}
+.filmes{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+}
+
+.containerB{
+  display: flex;
+  flex-wrap: wrap;
+}
